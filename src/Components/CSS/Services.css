@@ -1,0 +1,375 @@
+.serivces-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15vh;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 15vh;
+    /* pozadina */
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('/src/Components/Slike/2.png');
+
+}
+.paragraf-serivces{
+    font-size: 25px;
+    
+}
+
+.box-providni{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Provodni box-shadow */
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+
+    /* max-width: 600px; */
+}
+
+.box-sredina-services{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5vh;
+}
+.zom-text{
+    font-size: 30px;
+}
+.text-shadow{
+    text-shadow: 5px 5px 10px rgba(229, 16, 245, 0.4);
+    color: #e510f5;
+    font-size: 20px;
+}
+/* boxovi su jebena stvar */
+.img-serivces{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.box-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    /* align-items: center; */
+    justify-content: center;
+    /* padding: 42px 110px; */
+    padding: 20px 15px;
+    gap: 20px;
+    padding-top: 25px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    /* background-image: url('../Slike/iskebg.jpg'); */
+}
+.box-unutar-serivices {
+    padding: 25px 20px;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7));
+    color: white;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box-unutar-serivices:hover {
+    transform: scale(1.05); /* Scales the box slightly larger */
+    box-shadow: 0 10px 20px rgba(229, 16, 245, 0.4); /* Adds shadow effect */
+}
+.sredina-services{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* 53  i 54 novo wow */
+    text-shadow: 5px 5px 10px rgba(229, 16, 245, 0.4);
+    color: #e510f5;
+    
+}
+
+.shadow-text {
+    text-shadow: 5px 5px 10px rgba(229, 16, 245, 0.4);
+    color: #e510f5;  
+}
+.jedan-red i{
+    text-shadow: 5px 5px 10px rgba(229, 16, 245, 0.4);
+    color: #e510f5;   
+}
+  /* 53  i 54 novo wow */
+.jedan-red{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.sredina-h4-serivce{
+    font-size: 22px;
+    
+    
+}
+.box-price-sredina{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.btn-serivces {
+    background-color: #9d0b6e;
+    /* padding: 15px 15px; */
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    /* padding: 15px 52px; */
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn-serivces:hover {
+    background-color: #b00e77; /* Change background color on hover */
+    /* transform: scale(1.0); Slightly enlarge the button on hover */
+}
+.btn-serivces a{
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .box-services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+ 
+}
+
+/* @media (max-width: 576px) {
+    .box-services {
+        grid-template-columns: 1fr;
+    }
+} */
+
+
+/* zadnji dio servisa */
+.iske-serivs{
+    height: auto;
+    width: 40%;
+    border-radius: 20px;
+}
+.box-serivs-left{
+     padding: 20px 15px;
+     /* background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('/src/Components/Slike/1.png'); */
+    }
+.box-unutar-serivis{
+    display: flex;
+    /*  */
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px 35px;
+}
+.text-serivs-box{
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.line-smanji{
+    width: 86%;
+    display: flex;
+    /* justify-self: left; */
+    text-align: left;
+}
+.boxx-lista-serivis{
+    font-size: 15px;
+}
+
+  
+  .list-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); Provodni box-shadow */
+    /* padding: 20px 10px;
+    width: 80%; */
+  }
+  
+  .list-item i {
+    font-size: 45px;
+    margin-right: 15px;
+    color: rgba(8, 0, 58, 0.7);
+  }
+  .content p {
+    margin: 0;
+    font-size: 20px;
+  }
+  .show-text-boja{
+    text-shadow: 5px 5px 10px rgba(229, 16, 245, 0.4);
+    color: #e510f5;
+  }
+  @media (max-width: 768px) {
+   .box-unutar-serivis{
+    flex-direction: column;
+   }
+   .iske-serivs{
+    width: 455px;
+   }
+   .traka-follow-me-serivces{
+    flex-direction: column;
+   }
+ 
+}
+
+
+
+
+  .traka-follow-me-serivces li i.fa-instagram {
+    color: #E1306C;
+    filter: brightness(1.3); /* Pojačava svetlost za 30% */
+  }
+  
+
+  
+  .traka-follow-me-serivcesli i.fa-steam {
+    color: #2b3241;
+    filter: brightness(1.3);
+  }
+  
+  
+  .traka-follow-me-serivces li i.fa-youtube{
+    color: #f21818;
+    filter: brightness(1.3);
+  }
+  
+  .traka-follow-me-serivces li i.fa-twitch {
+    color: #9146FF;
+    filter: brightness(1.3);
+  }
+  
+
+
+
+  .traka-follow-me-serivces li {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centriranje sadržaja unutar li */
+    align-items: center; /* Centriranje sadržaja unutar li */
+    width: 50px;
+    height: 50px; /* Postavljanje visine da bi formirao krug */
+    border-radius: 50%; /* Zaokruživanje ivica da formira krug */
+    background-color: rgba(255, 255, 255, 0.8); /* Pozadinska boja (možeš promeniti) */
+    transition: background-color 0.3s; /* Efekat prelaza */
+    font-size: 20px;
+}
+
+.line-ravna {
+    display: flex;
+    margin-left: 25px;
+    padding: 20px;
+    align-items: center;
+    flex-direction: row;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.traka-follow-me-serivces ul {
+    display: flex;
+    gap: 20px;
+    padding: 0px 15px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.traka-follow-me-serivces {
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('/src/Components/Slike/3.png');
+}
+
+.tekst-smanji-he1 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+ .line-ravna{
+
+    flex-direction: column;
+ }
+ .traka-follow-me-serivces li{
+    font-size: 20px;
+    /* width: 20%; */
+   
+
+ }
+
+    .box-services {
+    
+        padding: 24px 15px;
+        gap: 15px;
+        padding-top: 25px;
+        margin-top: 20px;
+       
+        /* background-image: url('../Slike/iskebg.jpg'); */
+    }
+  }
+
+  .faq-section {
+    padding: 20px 15px;
+    max-width: 950px;
+    margin: 0 auto;
+    /* background-color: #643d3d; */
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('/src/Components/Slike/2.png');
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+    border-radius: 25px;
+    /* flex: ; */
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .faq-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .faq-question {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .faq-arrow {
+    width: 12px;
+    height: 12px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+  }
+  
+  .faq-arrow.open {
+    transform: rotate(-135deg);
+  }
+  
+  .faq-answer {
+    /* background-color: #643d3d; */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  

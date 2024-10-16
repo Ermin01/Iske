@@ -1,0 +1,115 @@
+.copy-right-iske li{
+    list-style-type: none;
+  
+}
+.copy-right-iske ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+
+}
+.copy-right-iske {
+    /* background-color: rgb(185, 40, 40); */
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('/src/Components/Slike/1.png');
+
+}
+.boja-bijela{
+    color: white;
+}
+.boja-bela{
+    color: white;
+    font-size: 14px;
+    
+}
+.copy-right-iske{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foterbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 10px;
+    gap: 20px;
+}
+.logo-footer{
+    height: auto;
+    width: 30%;
+}
+.box-foter{
+    display: flex;
+}
+.box-foter ul{
+    display: flex;
+    /* justify-content: ; */
+    /* align-items: center;
+     */
+     gap: 20px;
+     padding: 5px 8px;
+     /* padding-top: 5px; */
+}
+.box-foter li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 25px; */
+    flex-direction: column;
+    row-gap: 10px;
+    color: white;
+    font-weight: bold;
+ 
+}
+.box-foter  a, p{
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-weight: bold;
+
+    /* gap: 20px; */
+}
+
+.foterbox{
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('/src/Components/Slike/naslov.jpg');
+
+}
+  
+@media (max-width: 768px) {
+   .foterbox{
+    flex-direction: column;
+   }
+   .box-foter-img{
+    text-align: center;
+    /* width: 550px; */
+    height: auto;
+    color: white;
+   }
+
+   .copy-right-iske{
+    flex-direction: column;
+    }
+}
+  
+
+
+.cookie-policy {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+  
+  .cookie-policy h5 {
+    margin-bottom: 10px;
+  }
+  
+  .cookie-policy button {
+    margin-top: 10px;
+  }
+  

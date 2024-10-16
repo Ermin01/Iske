@@ -1,0 +1,238 @@
+.box-naslov-concat{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    /* width: 600px; */
+
+}
+.ismarje-glrup{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Provodni box-shadow */
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    max-width: 600px;
+}
+
+
+  
+  /*  box tri-novi*/
+
+
+.box-concat{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 15px;
+    margin: 0;
+
+}
+.box-gl{
+    padding: 20px 15px;
+    /* margin-top: 1vh; */
+    /* margin-bottom: 10vh; */
+    background-color: rgb(72, 64, 111); 
+    color: white;
+    box-shadow: -9px 30px 0px -7px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);    
+    flex: 1;
+    border-radius: 30px;
+    text-align: center;
+}
+.box-gl i{
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+@media (max-width: 768px) {
+    .box-concat{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4rem;
+ /*   background-color: #0c0c0c; /* Background color to match your image */
+    color: white;
+    gap: 2rem; /* Add spacing between left and right sections */
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('/src/Components/Slike/naslov.jpg');
+
+  }
+  
+  .box-left {
+    flex: 1;
+    max-width: 500px; /* Set a max width for the left section */
+  }
+  
+  .right-con {
+    flex: 1;
+    max-width: 500px; /* Set a max width for the right section */
+    padding: 20px 45px;
+    /* background-color: rebeccapurple; */
+    background-color: rgb(72, 64, 111);
+    border-radius: 50px 25px;
+    box-shadow: inset -9px 30px 0px -7px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+  }
+  
+ 
+  
+  .social-media {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+  }
+  
+  .social-media li {
+    font-size: 1.5rem; /* Size of social icons */
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  
+  .input-field {
+    flex: 1;
+    margin: 0 0.5rem;
+  }
+  
+  .input-field label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-field input,
+  .input-field textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #48406f; /* Input background color */
+    box-shadow: inset -9px 30px 0px -7px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    color: white;
+  }
+  
+  .btne {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Button gradient */
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 1rem; /* Space above the button */
+  }
+  
+  .btne:hover {
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column; /* Stack sections vertically */
+    }
+  
+    .input-group {
+      flex-direction: column; /* Stack input fields vertically */
+    }
+    
+    .input-field {
+      margin: 0.5rem 0; /* Adjust margin for vertical stacking */
+    }
+  
+    .social-media {
+      justify-content: center; /* Center social media icons */
+    }
+     .right-con{
+        /* max-width: -20px; */
+        margin-left: -1px; 
+    }
+    
+  }
+  
+
+  .box-icon-concat{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .box-icon-concat li i.fa-instagram {
+    color: #E1306C;
+    filter: brightness(1.3); /* Pojačava svetlost za 30% */
+  }
+  
+  .box-icon-concat li i.fa-twitter {
+    color: #1DA1F2;
+    filter: brightness(1.3);
+  }
+  
+  .box-icon-concat li i.fa-steam {
+    color: #2b3241;
+    filter: brightness(1.3);
+  }
+  
+  .box-icon-concat li i.fa-facebook {
+    color: #1877F2;
+    filter: brightness(1.3);
+  }
+  .box-icon-concat li i.fa-youtube{
+    color: #f21818;
+    filter: brightness(1.3);
+  }
+  .box-icon-concat li i.fa-twitch{
+    color: #9146FF;
+    filter: brightness(1.3);
+  }
+
+  
+.box-icon-concat li {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centriranje sadržaja unutar li */
+    align-items: center; /* Centriranje sadržaja unutar li */
+    width: 50px;
+    height: 50px; /* Postavljanje visine da bi formirao krug */
+    border-radius: 50%; /* Zaokruživanje ivica da formira krug */
+    background-color: rgba(255, 255, 255, 0.8); /* Pozadinska boja (možeš promeniti) */
+    transition: background-color 0.3s; /* Efekat prelaza */
+    font-size: 25px;
+  }
+
+
+
+
+.box-naslov-concat{
+  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('/src/Components/Slike/2.png');
+
+}
+
+.box-gl   i.fa-map-marker-alt{
+  color: #3C0753;
+  filter: brightness(1.3);
+}
+.box-gl   i.fa-phone{
+  color: #3C0753;
+  filter: brightness(1.3);
+}
+.box-gl   i.fa-envelope{
+  color: #3C0753;
+  filter: brightness(1.3);
+}
